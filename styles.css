@@ -14,7 +14,8 @@ a {
     text-decoration: none;
 }
 
-.nav {
+.nav,
+.header {
     background-color: #1f2937;
 }
 
@@ -27,6 +28,20 @@ a {
     margin: 0 10px;
 }
 
+#logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 #push-right {
     margin-left: auto;
+}
+
+#last-bullet {
+    margin-right: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
 }
