@@ -14,7 +14,8 @@ a {
 }
 
 .nav,
-.header {
+.header,
+.footer {
     background-color: #1f2937;
 }
 
@@ -83,4 +84,22 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+#quote-sayer {
+    align-self: flex-end;
 }
