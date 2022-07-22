@@ -1,0 +1,32 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #1f2937;
+}
+
+.nav ul{
+    display: flex;
+    margin: 0 -10px;
+}
+
+.nav li{
+    margin: 0 10px;
+}
+
+#push-right {
+    margin-left: auto;
+}
