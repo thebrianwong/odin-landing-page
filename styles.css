@@ -53,7 +53,7 @@ a,
 
 #main-text {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #f9faf8;
 }
 
@@ -69,6 +69,18 @@ button {
     align-items: center;
 }
 
+#info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
 .info-container {
     display: flex;
+}
+
+.info-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
