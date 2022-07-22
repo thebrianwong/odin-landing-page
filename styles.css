@@ -42,7 +42,8 @@ a {
 }
 
 a,
-#subtext {
+#subtext,
+.footer {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -117,4 +118,10 @@ button {
     background-color: #3382f6;
     border-radius: 8px;
     flex: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
