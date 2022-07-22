@@ -103,3 +103,18 @@ button {
 #quote-sayer {
     align-self: flex-end;
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3382f6;
+    border-radius: 8px;
+    flex: auto;
+}
