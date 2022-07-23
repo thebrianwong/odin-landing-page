@@ -63,7 +63,7 @@ button {
     color: white;
     background-color: #3382f6;
     border-radius: 8px;
-    padding: 3px 15px;
+    padding: 10px 15px;
     white-space: nowrap;
 }
 
@@ -74,7 +74,6 @@ button {
 
 .banner button {
     border: 2px solid white;
-    margin: 20px;
 }
 
 .info {
@@ -125,7 +124,7 @@ button {
 
 .banner {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: white;
     background-color: #3382f6;
@@ -133,7 +132,11 @@ button {
     flex: auto;
     max-width: 1500px;
     margin: 100px 150px;
-    padding: 10px 20px;
+    padding: 35px 70px;
+}
+
+.banner-text {
+    padding-right: 70px;
 }
 
 .footer {
