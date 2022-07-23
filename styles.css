@@ -103,6 +103,16 @@ button {
     flex-direction: column;
     align-items: center;
     background-color: #e5e7eb;
+    flex: auto;
+    padding: 50px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    flex: auto;
+    margin: 50px 150px;
 }
 
 #quote-text {
@@ -114,6 +124,9 @@ button {
 
 #quote-sayer {
     align-self: flex-end;
+    flex: auto;
+    padding-top: 10px;
+    padding-right: 50px;
 }
 
 .action {
