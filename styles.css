@@ -19,12 +19,16 @@ a {
     background-color: #1f2937;
 }
 
-.nav ul{
-    display: flex;
-    margin: 0 -10px;
+.nav-container {
+    margin: 10px 250px 0;
 }
 
-.nav li{
+.nav-container ul{
+    display: flex;
+    padding-left: 0px;
+}
+
+.nav-container li{
     margin: 0 10px;
 }
 
@@ -50,13 +54,25 @@ a,
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    flex: auto;
+    padding: 100px 0;
+}
+
+.header-container {
+    max-width: 1000px;
 }
 
 #main-text {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    padding-bottom: 10px;
+}
+
+#subtext {
+    padding-bottom: 10px;
 }
 
 button {
@@ -76,7 +92,7 @@ button {
     border: 2px solid white;
 }
 
-.info {
+.info-top {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,16 +102,27 @@ button {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    padding: 50px;
 }
 
 .info-container {
     display: flex;
+    justify-content: space-around;
 }
 
-.info-container div{
+.info-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 120px;
+    gap: 40px;
+}
+
+.info-items div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .quote {
