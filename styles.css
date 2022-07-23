@@ -68,7 +68,7 @@ a,
 
 img {
     max-width: 200px;
-    max-height: 200px;
+    max-height: auto;
 }
 
 #main-text {
@@ -121,6 +121,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: baseline;
     margin-bottom: 120px;
     gap: 40px;
 }
@@ -130,7 +131,10 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    text-align: center;
+    max-width: 200px;
 }
+
 
 .quote {
     display: flex;
@@ -154,13 +158,13 @@ button {
     font-style: italic;
     font-weight: 300;
     color: #1f2937;
+    text-align: justify;
 }
 
 #quote-sayer {
-    align-self: flex-end;
-    flex: auto;
+    text-align: end;
     padding-top: 10px;
-    padding-right: 50px;
+    paddding-right: 50px;
 }
 
 .action {
