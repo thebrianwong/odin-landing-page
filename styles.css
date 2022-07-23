@@ -63,6 +63,12 @@ a,
 
 .header-container {
     max-width: 1000px;
+    padding-right: 20px;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #main-text {
